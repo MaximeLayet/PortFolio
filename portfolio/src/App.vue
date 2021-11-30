@@ -1,4 +1,5 @@
 <template>
+	<Header />
 	<div id="nav">
 		<router-link to="/">Home</router-link> |
 		<router-link to="/about">About</router-link>
@@ -8,18 +9,20 @@
 </template>
 
 <script>
+import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 export default {
 	components: {
-		Footer
+		Footer,
+		Header
 	}
 };
 </script>
 
 <style lang="scss">
-$color-primary: #048b9a;
-$color-secondary: #f7369f;
-$color-terciary: #1ee2f7;
+$color-primary: #35495e;
+$color-secondary: #db3225;
+$color-terciary: #c4db25;
 $font-color: #fffdd0;
 
 #app {

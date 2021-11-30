@@ -3,18 +3,30 @@
 	<footer>
 		<div class="socials">
 			<div>
-				<img class="github" src="../assets/512x512-logo-27148.png" alt="logo github" />
-			</div>
-			<div><img class="malt" src="../assets/logo_malt.png" alt="logo malt" /></div>
-			<div>
-				<img
-					class="linkedin"
-					src="../assets/linkedin-logo-png-1840.png"
-					alt="logo linkedin"
-				/>
+				<a href="https://github.com/MaximeLayet" target="_blank"
+					><img class="github" src="../assets/512x512-logo-27148.png"
+				/></a>
 			</div>
 			<div>
-				<img class="twitter" src="../assets/twitter-logo-png-5873.png" alt="logo twitter" />
+				<a href="https://www.malt.fr/profile/maximelayet" target="_blank">
+					<img class="malt" src="../assets/logo_malt.png" alt="logo malt"
+				/></a>
+			</div>
+			<div>
+				<a href="https://www.linkedin.com/in/maximelayet/" target="_blank"
+					><img
+						class="linkedin"
+						src="../assets/linkedin-logo-png-1840.png"
+						alt="logo linkedin"
+				/></a>
+			</div>
+			<div>
+				<a href="https://twitter.com/LayetMaxime" target="_blank"
+					><img
+						class="twitter"
+						src="../assets/twitter-logo-png-5873.png"
+						alt="logo twitter"
+				/></a>
 			</div>
 		</div>
 		<div class="copyright">&copy; {{ copyrightYear }}</div>
@@ -34,15 +46,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$color-primary: #048b9a;
-$color-secondary: #f7369f;
-$color-terciary: #1ee2f7;
+$color-primary: #35495e;
+$color-secondary: #db3225;
+$color-terciary: #c4db25;
 $font-color: #fffdd0;
 
 footer {
 	border-top: 1vh solid $color-secondary;
 	background-color: $color-primary;
-	color: $font-color;
+	color: $color-terciary;
 	padding-top: 2vh;
 	padding-bottom: 2vh;
 }
@@ -58,7 +70,7 @@ footer {
 	&:hover {
 		transform: scale(1.2);
 		transition: 0.2s;
-		box-shadow: 1vh 1vh $color-secondary;
+		box-shadow: 1vh 1vh $color-terciary;
 		border-radius: 50%;
 	}
 }
