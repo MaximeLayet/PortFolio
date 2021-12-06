@@ -19,12 +19,26 @@ header {
 
 h1 {
 	text-transform: uppercase;
-	letter-spacing: 1vh;
-	cursor: pointer;
 	transition: 0.3s;
+	font-size: 8vh;
+	animation: lettersspace 5s forwards;
 	&:hover {
-		letter-spacing: 2vh;
-		transition: 3s;
+		animation: lettersspace 5s forwards;
+	}
+}
+
+@keyframes lettersspace {
+	0% {
+		letter-spacing: 1vh;
+	}
+	50% {
+		letter-spacing: 3vh;
+	}
+	95% {
+		letter-spacing: 0vh;
+	}
+	100% {
+		letter-spacing: 1vh;
 	}
 }
 </style>

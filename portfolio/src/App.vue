@@ -1,8 +1,8 @@
 <template>
 	<Header />
 	<div id="nav">
-		<router-link to="/">Home</router-link> |
-		<router-link to="/about">About</router-link>
+		<router-link to="/">À Propos</router-link> | <router-link to="/cv">Mon CV</router-link> |
+		<router-link to="/mywork">Mes projets</router-link>
 	</div>
 	<router-view />
 	<Footer />
@@ -38,10 +38,11 @@ $font-color: #fffdd0;
 
 	a {
 		font-weight: bold;
-		color: #2c3e50;
+		color: $color-primary;
+		text-decoration: none;
 
 		&.router-link-exact-active {
-			color: #42b983;
+			color: $color-secondary;
 		}
 	}
 }
