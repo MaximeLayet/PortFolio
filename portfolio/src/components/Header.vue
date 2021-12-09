@@ -1,6 +1,6 @@
 <template>
 	<header>
-		<h1>Maxime Layet</h1>
+		<a href="mailto:layetmaxime@gmail.com"><h1>Maxime Layet</h1></a>
 	</header>
 </template>
 
@@ -17,10 +17,16 @@ header {
 	padding-top: 2vh;
 }
 
+a {
+	text-decoration: none;
+	color: $color-secondary;
+}
+
 h1 {
 	text-transform: uppercase;
 	transition: 0.3s;
 	font-size: 8vh;
+	cursor: pointer;
 	animation: lettersspace 5s forwards;
 	&:hover {
 		animation: lettersspace 5s forwards;
