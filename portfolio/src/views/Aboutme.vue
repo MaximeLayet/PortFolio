@@ -31,12 +31,12 @@
 			Mais j'ai décidé de changer de direction professionnelle et de me lancer dans le developpement informatique.<br> D'abord attiré par le web design, j'ai ensuite découvert le code et je m'y suis énormement épanouï<br>Je me considère comme un développeur Frontend malgrè une formation qui avait une orientation Fullstack<br>N'hésite pas à me contacter si tu veux échanger un peu plus dans le détail à ce sujet.
 		</p>
 		<h2><span class="sections">Mes langages</span></h2>
-		<h4>nom // niveau: bwarf</h4>
-		<h4>nom // niveau: bwarf</h4>
-		<h4>nom // niveau: bwarf</h4>
-		<h4>nom // niveau: bwarf</h4>
-		<h4>nom // niveau: bwarf</h4>
-		<h4>nom // niveau: bwarf</h4>
+		<h4>Vue.Js // niveau: Junior</h4>
+		<h4>Javascript // niveau: Junior</h4>
+		<h4>Node.Js // niveau: Junior</h4>
+		<h4>MongoDB // niveau: Junior</h4>
+		<h4>MySQL // niveau: Junior</h4>
+		<h4>HTML/CSS(Sass) // niveau: Confirmé </h4>
 	</div>
 </template>
 
@@ -97,6 +97,19 @@ a {
 			border-radius:50%;
 			font-weight: bold;
 		}
+
+//Parti "Mes langages"
+
+h4 {
+	cursor: pointer;
+	transition: 0.2s;
+	 &:hover {
+		 transform: scale(1.5);
+		 color: $color-secondary;
+		 transition: 0.3s;
+
+	 }
+}
 
 
 </style>

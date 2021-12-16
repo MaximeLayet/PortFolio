@@ -2,7 +2,7 @@
 	<Header />
 	<div id="nav">
 		<router-link to="/">À Propos</router-link> | <router-link to="/cv">Mon CV</router-link> |
-		<router-link to="/mywork">Mes projets</router-link>
+		<router-link to="/mywork">Mes Projets</router-link>
 	</div>
 	<router-view />
 	<Footer />
@@ -38,6 +38,7 @@ $font-color: #fffdd0;
 
 	a {
 		font-weight: bold;
+		font-size: 3.5vh;
 		color: $color-primary;
 		text-decoration: none;
 
